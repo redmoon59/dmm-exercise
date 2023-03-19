@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .heading{
+  font-size: 32px;
+}/*なくてok*/
+
+nav{
+  padding:15px 0;
+  text-align: center;
+  font-size: 0;
+  border: solid black;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  /*border-位置：サイズ　種類　色　でできる*/
+}
+
+.nav-item{
+ display: inline-block;
+ font-size: 12px;
+ margin: 0 20px;
+}
+
+main{
+  width: 100%;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.color-box{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-item{
+  width: 200px;
+  height: 200px;
+}
+
+.box-item:nth-of-type(1){
+  background-color: #e6ffe9;
+}
+
+.box-item:nth-of-type(2){
+  background-color: #cbffd3;
+}
+
+.box-item:nth-of-type(3){
+  background-color: #aeffbd;
+}
+
+.box-item:nth-of-type(4){
+  background-color: #93ffab;
+}
+
+.box-item:nth-of-type(5){
+  background-color: #f3ffd8;
+}
+
+.box-item:nth-of-type(6){
+  background-color: #edffbe;
+}
+
+.box-item:nth-of-type(7){
+  background-color: #e9ffa5;
+}
+
+.box-item:nth-of-type(8){
+  background-color: #e4ff8d;
+}
+
+.box-item:nth-of-type(9){
+  background-color: #d9e5ff;
+}
+
+.box-item:nth-of-type(10){
+  background-color: #bad3ff;
+}
+
+.box-item:nth-of-type(11){
+  background-color: #a4c6ff;
+}
+
+.box-item:nth-of-type(12){
+  background-color: #8eb8ff;
+}　
+
+/*div classの名前を一つずつ変える.box1 {*/
+/*  width: 200px;*/
+/*  height: 200px;*/
+/*  background-color: #e6ffe9;*/
+/*}でもできる*/
+
+footer{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text{
+  font-size:12px;
+  color: #fff;
+}
